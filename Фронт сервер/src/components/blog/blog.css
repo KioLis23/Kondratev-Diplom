@@ -1,0 +1,66 @@
+.blog {
+    max-width: 600px;
+    margin: 0 auto;
+    padding: 20px;
+    font-family: Arial, sans-serif;
+}
+
+.blog h2 {
+    text-align: center;
+    color: #333;
+}
+
+.blog form {
+    margin-bottom: 20px;
+}
+
+.blog textarea {
+    width: 100%;
+    padding: 10px;
+    font-size: 16px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+
+.blog button {
+    padding: 10px 20px;
+    font-size: 16px;
+    background-color: #4CAF50;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.blog button:hover {
+    background-color: #45a049;
+}
+
+.blog .messages {
+    margin-top: 20px;
+}
+
+.blog .message {
+    margin-bottom: 10px;
+    display: flex;
+}
+
+.blog .author {
+    padding: 10px;
+    background-color: #f9f9f9;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+
+.blog .text {
+    flex-grow: 1;
+    padding: 10px;
+    text-align: center;
+    background-color: #f9f9f9;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+
+.blog .message p {
+    margin: 0;
+}
